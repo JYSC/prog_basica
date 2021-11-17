@@ -1,7 +1,5 @@
-var n1, i;
-n1=100;
-i=2;
-while(i<=n1)
-{
-  i+=2
+for(let i = 0;i <= 100;i++){
+    if(i % 2 == 0){
+        console.log(i);
+    }
 }
